@@ -1,8 +1,11 @@
 compile:
 	javac common/*.java bank/*.java client/*.java
 
-server:
+clean:
+	rm common/*.class bank/*.class client/*.class
+
+run-server:
 	java bank/RemoteAccount
 
-client:
-	java bank/AccountClient
+run-client:
+	java client/AccountClient
