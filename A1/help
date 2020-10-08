@@ -1,0 +1,2 @@
+ps eaf | grep rmiregistry
+kill -9 (process)
